@@ -132,6 +132,33 @@
             "tags": [],
             "bom": []
           }
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": {
+            "geometry": "move-rectangle-3.5-8.5-47.75-0-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         }
       ],
       "unionType": "Fusion"
@@ -242,7 +269,8 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 47.75
+          "ioValue": 47.75,
+          "currentEquation": "47.75"
         },
         {
           "name": "yDist",
@@ -251,6 +279,19 @@
         {
           "name": "zDist",
           "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.6522204387372926,
+      "y": 0.4507042253521127,
+      "uniqueID": "id-57",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 0.5,
+          "currentEquation": "0.5"
         }
       ]
     }
@@ -267,9 +308,9 @@
       "ap2ID": "id-28"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry",
       "ap1ID": "id-17",
-      "ap2ID": "id-2"
+      "ap2ID": "id-57"
     },
     {
       "ap2Name": "Shape 3",
@@ -295,6 +336,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-46",
       "ap2ID": "id-50"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-50",
+      "ap2ID": "id-17"
     }
   ],
   "unitsKey": "Inches",
