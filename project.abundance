@@ -24,8 +24,8 @@
         },
         {
           "name": "y length",
-          "ioValue": 2.75,
-          "currentEquation": "2.75"
+          "ioValue": 5.5,
+          "currentEquation": "5.5"
         }
       ]
     },
@@ -41,8 +41,8 @@
         },
         {
           "name": "y length",
-          "ioValue": 1.5,
-          "currentEquation": "1.5"
+          "ioValue": 8.5,
+          "currentEquation": "8.5"
         }
       ]
     },
@@ -55,7 +55,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-rectangle-3.5-1.5-1.75-3.5-0",
+            "geometry": "move-rectangle-3.5-8.5-1.75-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -82,7 +82,34 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-rectangle-49.5-2.75-24.75-1.375-0",
+            "geometry": "move-rectangle-49.5-5.5-24.75-0-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": {
+            "geometry": "move-rectangle-3.5-8.5-24.75-0-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -121,8 +148,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 1.375,
-          "currentEquation": "1.375"
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -143,8 +170,83 @@
         },
         {
           "name": "yDist",
-          "ioValue": 3.5,
-          "currentEquation": "3.5"
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.30230069555912253,
+      "y": 0.13849765258215962,
+      "uniqueID": "id-35",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 3.5
+        },
+        {
+          "name": "y length",
+          "ioValue": 8.5,
+          "currentEquation": "8.5"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.42482611021936867,
+      "y": 0.2136150234741784,
+      "uniqueID": "id-39",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 24.75,
+          "currentEquation": "24.75"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.5200642054574639,
+      "y": 0.11267605633802817,
+      "uniqueID": "id-46",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 3.5
+        },
+        {
+          "name": "y length",
+          "ioValue": 8.5,
+          "currentEquation": "8.5"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5880149812734082,
+      "y": 0.24178403755868544,
+      "uniqueID": "id-50",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 47.75
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
         },
         {
           "name": "zDist",
@@ -178,6 +280,21 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-28",
       "ap2ID": "id-17"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-35",
+      "ap2ID": "id-39"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-39",
+      "ap2ID": "id-17"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-46",
+      "ap2ID": "id-50"
     }
   ],
   "unitsKey": "Inches",
