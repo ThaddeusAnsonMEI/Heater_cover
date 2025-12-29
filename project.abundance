@@ -1,13 +1,100 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Heater_cover",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Heater_cover",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.164258962011771,
+      "y": 0.6126760563380281,
+      "uniqueID": "id-4",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 49.5
+        },
+        {
+          "name": "y length",
+          "ioValue": 2.75,
+          "currentEquation": "2.75"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.23756019261637237,
+      "y": 0.41549295774647893,
+      "uniqueID": "id-8",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 3.5
+        },
+        {
+          "name": "y length",
+          "ioValue": 1.5,
+          "currentEquation": "1.5"
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.38095238095238093,
+      "y": 0.5328638497652582,
+      "uniqueID": "id-12",
+      "ioValues": []
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.32530765115034777,
+      "y": 0.6784037558685446,
+      "uniqueID": "id-17",
+      "ioValues": [],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.24719101123595502,
+      "y": 0.744131455399061,
+      "uniqueID": "id-22",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-22"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-12",
+      "ap2ID": "id-2"
+    }
+  ],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
